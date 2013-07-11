@@ -1,1 +1,2 @@
-Requires Microsoft SQL Server loaded with an Eve data export. Change the SQL connection statements
+Requires Microsoft SQL Server loaded with an Eve data export.
+Change the SQL connection statements to match your local setup.

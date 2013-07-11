@@ -129,11 +129,6 @@ namespace EveAssetViewerHDMaxx
             string vCode = Properties.Settings.Default.apiVcode;
             string charId = Properties.Settings.Default.apiCharId;
 
-            //for my testing
-            keyId = "1639349";
-            vCode = "oVhFOLJwE7cI1jd8DfP7j8Co1qaHFQrTbdXV4EAxQ6JZVMNS1Ve1SEQdQoHxudFy";
-            charId = "860227105";
-
             CharacterSheet charSheet = new CharacterSheet(keyId, vCode, charId);
             updateCharSheetLabels(charSheet);
 
